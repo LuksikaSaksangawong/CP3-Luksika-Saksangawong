@@ -1,7 +1,9 @@
 print("โปรแกรมคำนวณหาระยะทาง")
 print("--------------------")
-v = int(input("v (Km)="))
-t = int(input("t (h)="))
-Result = v/t
+print("v=s/t")
 print("--------------------")
-print("ผลลัพธ์",Result,"Km/h")
+s = int(input("s (Km)="))
+t = int(input("t (h)="))
+Result = s/t
+print("--------------------")
+print("v =",Result,"Km/h")
